@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6B10184154DD11D00FBC9D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B10183154DD11D00FBC9D3 /* UIKit.framework */; };
+		E6B10186154DD11D00FBC9D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B10185154DD11D00FBC9D3 /* Foundation.framework */; };
+		E6B10188154DD11D00FBC9D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B10187154DD11D00FBC9D3 /* CoreGraphics.framework */; };
+		E6B1018E154DD11D00FBC9D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6B1018C154DD11D00FBC9D3 /* InfoPlist.strings */; };
+		E6B10190154DD11D00FBC9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B1018F154DD11D00FBC9D3 /* main.m */; };
+		E6B10194154DD11D00FBC9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B10193154DD11D00FBC9D3 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6B1017F154DD11D00FBC9D3 /* JSWeatherDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSWeatherDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B10183154DD11D00FBC9D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6B10185154DD11D00FBC9D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6B10187154DD11D00FBC9D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6B1018B154DD11D00FBC9D3 /* JSWeatherDesign-Info.plist */ = {isa = PBXFileReference; path = "JSWeatherDesign-Info.plist"; sourceTree = "<group>"; };
+		E6B1018D154DD11D00FBC9D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6B1018F154DD11D00FBC9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6B10191154DD11D00FBC9D3 /* JSWeatherDesign-Prefix.pch */ = {isa = PBXFileReference; path = "JSWeatherDesign-Prefix.pch"; sourceTree = "<group>"; };
+		E6B10192154DD11D00FBC9D3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6B10193154DD11D00FBC9D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B1017C154DD11D00FBC9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B10184154DD11D00FBC9D3 /* UIKit.framework in Frameworks */,
+				E6B10186154DD11D00FBC9D3 /* Foundation.framework in Frameworks */,
+				E6B10188154DD11D00FBC9D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6B10174154DD11C00FBC9D3 = {
+			isa = PBXGroup;
+			children = (
+				E6B10189154DD11D00FBC9D3 /* JSWeatherDesign */,
+				E6B10182154DD11D00FBC9D3 /* Frameworks */,
+				E6B10180154DD11D00FBC9D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B10180154DD11D00FBC9D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B1017F154DD11D00FBC9D3 /* JSWeatherDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B10182154DD11D00FBC9D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6B10183154DD11D00FBC9D3 /* UIKit.framework */,
+				E6B10185154DD11D00FBC9D3 /* Foundation.framework */,
+				E6B10187154DD11D00FBC9D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6B10189154DD11D00FBC9D3 /* JSWeatherDesign */ = {
+			isa = PBXGroup;
+			children = (
+				E6B10192154DD11D00FBC9D3 /* AppDelegate.h */,
+				E6B10193154DD11D00FBC9D3 /* AppDelegate.m */,
+				E6B1018A154DD11D00FBC9D3 /* Supporting Files */,
+			);
+			path = JSWeatherDesign;
+			sourceTree = "<group>";
+		};
+		E6B1018A154DD11D00FBC9D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B1018B154DD11D00FBC9D3 /* JSWeatherDesign-Info.plist */,
+				E6B1018C154DD11D00FBC9D3 /* InfoPlist.strings */,
+				E6B1018F154DD11D00FBC9D3 /* main.m */,
+				E6B10191154DD11D00FBC9D3 /* JSWeatherDesign-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B1017E154DD11D00FBC9D3 /* JSWeatherDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B10197154DD11D00FBC9D3 /* Build configuration list for PBXNativeTarget "JSWeatherDesign" */;
+			buildPhases = (
+				E6B1017B154DD11D00FBC9D3 /* Sources */,
+				E6B1017C154DD11D00FBC9D3 /* Frameworks */,
+				E6B1017D154DD11D00FBC9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSWeatherDesign;
+			productName = JSWeatherDesign;
+			productReference = E6B1017F154DD11D00FBC9D3 /* JSWeatherDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B10176154DD11C00FBC9D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E6B10179154DD11C00FBC9D3 /* Build configuration list for PBXProject "JSWeatherDesign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6B10174154DD11C00FBC9D3;
+			productRefGroup = E6B10180154DD11D00FBC9D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B1017E154DD11D00FBC9D3 /* JSWeatherDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6B1017D154DD11D00FBC9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B1018E154DD11D00FBC9D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B1017B154DD11D00FBC9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B10190154DD11D00FBC9D3 /* main.m in Sources */,
+				E6B10194154DD11D00FBC9D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6B1018C154DD11D00FBC9D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B1018D154DD11D00FBC9D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6B10195154DD11D00FBC9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E6B10196154DD11D00FBC9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6B10198154DD11D00FBC9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSWeatherDesign/JSWeatherDesign-Prefix.pch";
+				INFOPLIST_FILE = "JSWeatherDesign/JSWeatherDesign-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6B10199154DD11D00FBC9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSWeatherDesign/JSWeatherDesign-Prefix.pch";
+				INFOPLIST_FILE = "JSWeatherDesign/JSWeatherDesign-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6B10179154DD11C00FBC9D3 /* Build configuration list for PBXProject "JSWeatherDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B10195154DD11D00FBC9D3 /* Debug */,
+				E6B10196154DD11D00FBC9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B10197154DD11D00FBC9D3 /* Build configuration list for PBXNativeTarget "JSWeatherDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B10198154DD11D00FBC9D3 /* Debug */,
+				E6B10199154DD11D00FBC9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6B10176154DD11C00FBC9D3 /* Project object */;
+}
