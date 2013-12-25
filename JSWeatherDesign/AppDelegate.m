@@ -7,21 +7,27 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WeatherViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
-
+@synthesize nav=_nav;
 - (void)dealloc
 {
     [_window release];
+    [nav  release];
     [super dealloc];
+    
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    WeatherViewController *weathercontroller=[[WeatherViewController alloc]init];
+    self.nav=[[UINavigationController alloc]initWithRootViewController:weathercontroller];
+    [self.nav.navigationBar setBarStyle:UIBarStyleBlack];
+    [self.window addSubview:self.nav.view];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
